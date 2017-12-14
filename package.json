@@ -4,9 +4,11 @@
   "description": "React NPM library starter kit based on Facebook's create react app",
   "main": "build/index.js",
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "start-storybook -p 6006",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "build-storybook": "build-storybook -s public"
+
   },
   "repository": {
     "type": "git",
