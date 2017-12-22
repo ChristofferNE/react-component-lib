@@ -1,8 +1,11 @@
-import Example from './components/Example';
-import SecondExample from './components/SecondExample';
 
-export default Example;
+import Card from './components/card/card';
+import MyHeader from './components/header/header';
+import MyDescription from './components/description/description';
+
 export {
-  SecondExample
+  Card,
+  MyHeader,
+  MyDescription
 };
 
