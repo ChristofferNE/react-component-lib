@@ -62,3 +62,9 @@ Produces production version of library under the `build` folder.
 ## Example library built with this starter kit
 
 https://github.com/UdiliaInc/react-under-construction
+
+
+
+## Requirements
+
+You need to run 'brew install libpng' to get images to load properly. 
