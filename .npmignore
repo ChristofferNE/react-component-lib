@@ -7,7 +7,7 @@
 /coverage
 
 #Storybook
-./Storybook
+/.storybook
 /stories
 
 #scripts

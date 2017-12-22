@@ -1,6 +1,6 @@
 {
   "name": "react-component-lib",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React NPM library starter kit based on Facebook's create react app",
   "main": "build/index.js",
   "scripts": {
