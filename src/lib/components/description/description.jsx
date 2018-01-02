@@ -2,7 +2,7 @@ import t from 'prop-types'
 import React, { Component } from 'react'
 import './description.scss'
 
-class MyDescriptionText extends Component {
+class Description extends Component {
 
     static propTypes = {
         text: t.string,
@@ -13,11 +13,11 @@ class MyDescriptionText extends Component {
     }
 
     render() {
-        let { text, className, ...props } = this.props
+        let { children, className, ...props } = this.props
         return (
-            <p className={className ? 'description ' + className : 'description'} {...props}>{text}</p>
+            <p className={className ? 'description ' + className : 'description'} {...props}>{children}</p>
         )
     }
 }
 
-export default MyDescriptionText
+export default Description

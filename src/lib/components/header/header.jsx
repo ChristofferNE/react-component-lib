@@ -2,7 +2,7 @@ import t from 'prop-types'
 import React, { Component } from 'react'
 import './header.scss'
 
-class MyHeader extends Component {
+class Header extends Component {
 
     static propTypes = {
         text: t.string,
@@ -13,11 +13,11 @@ class MyHeader extends Component {
     }
 
     render() {
-        let { text, className, ...props } = this.props
+        let { children, className, ...props } = this.props
         return (
-            <div className={className ? 'header ' + className : 'header'} {...props} >{text}</div>
+            <div className={className ? 'header ' + className : 'header'} {...props} >{children}</div>
         )
     }
 }
 
-export default MyHeader
+export default Header
